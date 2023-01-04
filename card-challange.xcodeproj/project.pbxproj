@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D86C5ACE2965631B00A5AC04 /* ss2.png in Resources */ = {isa = PBXBuildFile; fileRef = D86C5ACC2965631B00A5AC04 /* ss2.png */; };
-		D86C5ACF2965631B00A5AC04 /* ss1.png in Resources */ = {isa = PBXBuildFile; fileRef = D86C5ACD2965631B00A5AC04 /* ss1.png */; };
 		D8DE64BF2964076C00566A5C /* card_challangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DE64BE2964076C00566A5C /* card_challangeApp.swift */; };
 		D8DE64C12964076C00566A5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DE64C02964076C00566A5C /* ContentView.swift */; };
 		D8DE64C32964076E00566A5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DE64C22964076E00566A5C /* Assets.xcassets */; };
@@ -16,8 +14,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D86C5ACC2965631B00A5AC04 /* ss2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ss2.png; path = ../../../Desktop/ss2.png; sourceTree = "<group>"; };
-		D86C5ACD2965631B00A5AC04 /* ss1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ss1.png; path = ../../../Desktop/ss1.png; sourceTree = "<group>"; };
 		D8DE64BB2964076C00566A5C /* card-challange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "card-challange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DE64BE2964076C00566A5C /* card_challangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card_challangeApp.swift; sourceTree = "<group>"; };
 		D8DE64C02964076C00566A5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,8 +35,6 @@
 		D8DE64B22964076C00566A5C = {
 			isa = PBXGroup;
 			children = (
-				D86C5ACD2965631B00A5AC04 /* ss1.png */,
-				D86C5ACC2965631B00A5AC04 /* ss2.png */,
 				D8DE64BD2964076C00566A5C /* card-challange */,
 				D8DE64BC2964076C00566A5C /* Products */,
 			);
@@ -131,10 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D86C5ACF2965631B00A5AC04 /* ss1.png in Resources */,
 				D8DE64C62964076E00566A5C /* Preview Assets.xcassets in Resources */,
 				D8DE64C32964076E00566A5C /* Assets.xcassets in Resources */,
-				D86C5ACE2965631B00A5AC04 /* ss2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
