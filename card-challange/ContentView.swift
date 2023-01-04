@@ -45,7 +45,14 @@ struct ContentView: View {
                     if(playerRand>cpuRand){
                         playerScore += 1
 
-                    }else{
+                    }else if(playerRand==cpuRand){
+                        cpuScore += 1
+                        playerScore += 1
+
+                    }
+                    
+                    
+                    else{
                         cpuScore += 1
 
                     }
@@ -79,7 +86,7 @@ struct ContentView: View {
 
                     
                     VStack{
-                        Text("CPU")
+                        Text("Computer")
                             .font(.headline)
                             .fontWeight(.bold)
                             .foregroundColor(Color.white)
